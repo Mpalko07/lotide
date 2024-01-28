@@ -7,8 +7,7 @@ const assertEqual = function(actual, expected) {
 };
 
 const tail = function(array) {
-  const newArray = array.slice(1);
-  return newArray;
+  return array.slice(1);
 };
 
 // Test Case 1: Check the original array 
