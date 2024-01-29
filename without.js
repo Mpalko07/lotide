@@ -19,7 +19,7 @@ const assertArraysEqual = function(array1, array2) {
     console.log(`🛑🛑🛑 Assertion Failed: ${array1} is not equal to ${array2}`);
   }
 };
-
+// The without function takes two arrays as arguments, and returns a copy of the first array with any elements present in the second array removed.
 const without = function(source, itemsToRemove) {
   let result = [];
 
