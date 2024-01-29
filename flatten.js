@@ -25,8 +25,10 @@ const flatten = function(arr) {
 
   for (const element of arr) {
     if (Array.isArray(element)) {
-      flattenedArray = [...flattenedArray, ...element];
+      // if it is an array
+      flattenedArray = flattenedArray.concat(element);
     } else {
+    // if not array
       flattenedArray.push(element);
     }
   }
