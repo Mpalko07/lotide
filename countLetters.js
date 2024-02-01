@@ -21,8 +21,8 @@ const countLetters = function(sentence) {
 
 // Test
 const result1 = countLetters('is this working');
-assertEqual(result1['i'], 1);
-assertEqual(result1['s'], 1);
+assertEqual(result1['i'], 3);
+assertEqual(result1['s'], 2);
 assertEqual(result1['t'], 1);
 assertEqual(result1['h'], 1);
 assertEqual(result1['w'], 1);
@@ -36,8 +36,8 @@ const result2 = countLetters('coding is fun');
 assertEqual(result2['c'], 1);
 assertEqual(result2['o'], 1);
 assertEqual(result2['d'], 1);
-assertEqual(result2['i'], 1);
-assertEqual(result2['n'], 1);
+assertEqual(result2['i'], 2);
+assertEqual(result2['n'], 2);
 assertEqual(result2['g'], 1);
 assertEqual(result2['s'], 1);
 assertEqual(result2['f'], 1);
