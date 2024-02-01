@@ -12,6 +12,7 @@ const countLetters = function(sentence) {
 
   for (const letter of sentence) {
     if (letter !== ' ') {
+      // If letterCounts[letter] is undefined, assign it a value of 0, then increment by 1
       letterCounts[letter] = (letterCounts[letter] || 0) + 1;
     }
   }
