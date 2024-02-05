@@ -33,8 +33,9 @@ const eqObjects = function(object1, object2) {
         if (!eqArrays(object1[key], object2[key])) {
           return false;
         }
-      } else if (object1[key] !== object2[key]) {
-        return false;
+      }
+        if (!Array.isArray(object1[key]) && object1[key] !== object2[key]) {
+          return false;
     }
   }
 
