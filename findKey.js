@@ -13,7 +13,6 @@ const findKey = function(object, callback) {
       return key;
     }
   }
-  return undefined;
 };
 
 //Tests
